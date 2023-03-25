@@ -70,13 +70,13 @@ h3{
     text-transform: uppercase;
     margin-top: 10px;
 }
-@media (max-width: 800px) {
+@media (max-width: 375px) {
     .container{
         display: block;
     }
     .image img{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 300px;
         border-bottom-left-radius: none;
         border-bottom-right-radius: none;
         border-top-left-radius: 10px;
@@ -86,7 +86,7 @@ h3{
         border-radius: none;
     }
     .text{
-        width: 400px;
+        width: 350px;
         height: 570px;
         margin-top: -70px;
         border-radius: 10px;
